@@ -13,7 +13,7 @@ import Image from 'next/image'
 
 export function Projects() {
   return (
-    <section id="projects" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="projects" className="w-full py-12 md:py-24 lg:py-32 h-[100vh]">
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
