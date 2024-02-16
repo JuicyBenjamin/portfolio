@@ -38,13 +38,13 @@ export function AboutMe() {
               React
             </div>
             <div className="rounded-full bg-gray-100/30 px-3 py-1 text-sm dark:bg-gray-800/30">
-              Node.js
+              Next js
             </div>
             <div className="rounded-full bg-gray-100/30 px-3 py-1 text-sm dark:bg-gray-800/30">
               TypeScript
             </div>
             <div className="rounded-full bg-gray-100/30 px-3 py-1 text-sm dark:bg-gray-800/30">
-              MongoDB
+              Qwik js
             </div>
           </div>
           <div className="flex items-center gap-2">
