@@ -1,5 +1,6 @@
 import DotBackground from '@/components/DotBackground'
 import { AboutMe } from '@/components/about-me'
+import { Projects } from '@/components/projects'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         </DotBackground>
       </section>
       <AboutMe />
+      <Projects />
     </div>
   )
 }

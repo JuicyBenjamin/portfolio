@@ -19,7 +19,7 @@ export function Navigation() {
         <div className="flex items-center justify-center gap-4 md:justify-end md:gap-8">
           <Link
             className="inline-flex items-center gap-2 text-base font-semibold md:gap-2 md:text-lg"
-            href="#"
+            href="#about"
           >
             <span>About</span>
             <ChevronRightIcon className="h-4 w-4" />
@@ -27,7 +27,7 @@ export function Navigation() {
           </Link>
           <Link
             className="inline-flex items-center gap-2 text-base font-semibold md:gap-2 md:text-lg"
-            href="#"
+            href="#projects"
           >
             <span>Projects</span>
             <ChevronRightIcon className="h-4 w-4" />
