@@ -35,7 +35,7 @@ export function Navigation() {
           </Link>
           <Link
             className="inline-flex items-center gap-2 text-base font-semibold md:gap-2 md:text-lg"
-            href="#"
+            href="#skills"
           >
             <span>Skills</span>
             <ChevronRightIcon className="h-4 w-4" />
