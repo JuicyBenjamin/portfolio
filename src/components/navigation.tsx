@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 export function Navigation() {
   return (
-    <nav className="absolute z-10 grid w-full border-t-2 border-gray-100/50 backdrop-blur-sm md:border-t-0/60 lg:border-t-2/50 dark:border-gray-950/50 dark:border-gray-950 backdrop-blur-sm/60">
-      <div className="container grid pt-4 gap-4 text-center md:pt-12 md:grid-cols-[1fr_2fr] lg:gap-0 lg:grid-cols-[1fr_3fr]">
+    <nav className="fixed z-10 grid w-full border-t-2 border-gray-100/50 backdrop-blur-sm md:border-t-0/60 lg:border-t-2/50 dark:border-gray-950/50 dark:border-gray-950 backdrop-blur-sm/60">
+      <div className="container grid py-3 gap-4 text-center md:pt-12 md:grid-cols-[1fr_2fr] lg:gap-0 lg:grid-cols-[1fr_3fr]">
         <div className="flex items-center justify-center gap-4 md:justify-start md:gap-6">
           <Link
             className="flex items-center gap-2 text-base font-semibold md:gap-2 md:text-lg"
